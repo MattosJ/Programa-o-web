@@ -1,0 +1,4 @@
+.reduzido{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

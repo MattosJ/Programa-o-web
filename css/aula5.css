@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+}
+h1{
+    color: black;
+    padding: 15px;
+}
+p{    
+    color: red;
+}
+#background{    
+    height: 1700px;
+    width: 100%;
+    background-image: url(imagens/pexels-michael-morse-1034552.jpg);
+    background-size: cover;
+}
+
+#background p {
+    color: white;
+}

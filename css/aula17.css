@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid black;
+
+}
+.container img{
+    float: left;
+    width: 250px;
+    height: 400px;
+}
+.navegacao li{
+    padding: 8px;
+    margin-left: 3px;
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+}
+.navegacao{
+    background-color: black;
+    border: 1px solid red;
+    height: 50px;
+    text-align: left;
+
+}

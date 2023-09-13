@@ -1,0 +1,49 @@
+ul{
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a, .btnContatos{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover,.contatos:hover  .btnContatos{
+    background-color: red;
+
+}
+li.contatos{
+    display: inline-block;
+
+}
+.contatos{
+
+}
+.btnContatos{
+
+}
+.itensContatos{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 150px;
+}
+.itensContatos a {
+    color: black;
+    display: block;
+    text-align: left;
+    border: 1px solid lightslategray;
+}
+.contatos:hover .itensContatos{
+    display: block;
+}
+.itensContatos a:hover{
+    color: white;
+    background-color: rgb(207, 22, 22);
+}

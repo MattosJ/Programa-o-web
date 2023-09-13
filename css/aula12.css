@@ -1,0 +1,58 @@
+
+.botao{
+    border: 1px solid black;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+#btn1{
+    background-color:cyan;
+    color: black;
+    border-radius: 10px;
+    border: cyan;
+}
+#btn1:hover{
+    background-color: rgb(0, 230, 230);
+    color: brown;
+    padding: 23px;
+    border:  rgb(0, 230, 230);
+
+}
+#btn2{
+    padding: 15px;
+    border-radius: 3px;
+    color: gold;
+    background-color: gray;
+}
+#btn2:hover{
+    background-color: rgb(87, 87, 87) ;
+    padding: 19px;
+    border:  rgb(87, 87, 87) ;
+    border-radius: 10px;
+}
+#btn3{
+    background-color: lightgray;
+    color: darkred;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 18px;
+}
+#btn3:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 21px;
+
+}
+#btn4{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#btn4:hover{
+    background-color: rgb(48, 48, 48);
+    padding: 17px;
+    color: rgba(255, 255, 255, 0.644);
+    cursor: help;
+}
+

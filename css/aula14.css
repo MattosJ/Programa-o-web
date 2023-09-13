@@ -1,0 +1,13 @@
+.ex{
+    border: 1px solid red;
+    max-width: 800px;
+    
+}
+.ex2{
+    border: 1px solid green;
+    max-width: 800px;
+}
+.ex3{
+    border: 1px solid blue;
+    max-width: 800px;
+}

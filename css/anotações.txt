@@ -1,0 +1,177 @@
+O CSS é responsável pela parte estética da página.
+ Complementar o html.
+ css inline funciona apenas na tag que você determinou.
+    background = mudar o fundo.
+    color =  mudar a cor.
+    text-align = mudar o alinhamento do texto.
+    font-size = mudar o tamanho da fonte.
+    Css inline não dar pra ser recursivo.
+    Css interno colocado na tag head , tag style.
+    Css externo é um arquivo separado do html que dar para ser usado em várias páginas.
+Para adicionar o css em arquivo no seu html basta:
+na tag head colocar a tag link rel = "stylesheet " href ""
+
+Seletores e Classes;
+Class e id.
+Não pode começar um identificador com um número , os id´s são sempre únicos.
+Se for usar uma propriedade que será usada em vários locais usa-se classe.
+* = todas as tags vão receber essa propriedade.
+
+as bordas :
+Solid;
+dashed;
+double;
+groove;
+ridge;
+inset;
+outste;
+none;
+hiden;
+dotted;
+
+lembrando que eu posso colocar a cor que eu quiser nas bordas.
+eu posso também definir a borda em um lado especifico.
+border-top ;
+border-bottom ;
+border-right ;
+border-left ;
+cada um pode ser uma cor, podem ser de tipos diferentes.
+
+Arredondar bordas:
+border-radius 
+pode ser porcentagem ou número de pixel.
+
+Margin:
+A margem serve para dar um espaço em uma das direções do elemento.(podendo ser usada em todas ao mesmo tempo.)
+
+margin-top;
+margin-bottom;
+margin-left;
+margin-right;
+Pode ser em qualquer medida , px , %, em , 
+Para substituir  as outras
+margin top , right , bottom, border-left
+ou seja :
+Abrindo a tag margin e definindo os pixel para o top , a direita, para baixo e para a esquerda. em uma única linha.
+
+Padding:
+O padding é o espaçamento interno (preenchimento).
+Assim como o margin
+padding-top;
+padding-bottom;
+padding-left;
+padding-right; 
+e igual ao margin podemos substituir as quatros em uma.
+padding x y w z;
+usamos muito padding para criar botãoes;
+
+width e heigth
+Podemos determinar uma largura e uma altura para qualquer elemento.
+Posso definir uma largura máxima  e mínima. (serve também para altura.);
+
+Texto
+Existem várias tags de texto.
+text-align 
+center ;
+end;
+justify;
+right;
+start;
+inherit;
+initial;
+unset;
+Dar para mudar a direção do texto, direction
+unicode-bidi 
+
+text-decoration 
+none
+overline
+line-trough 
+underline
+
+text-transform
+uppercase
+lowercase
+capitalize
+
+text-indent 
+serve para recuar a primeira linha de um texto criar efeito de paragrafo.
+
+letter-spacing = espaçamento entre as letras.
+line-height = altura entre as linhas.
+word-spacing = espaçamento entre palavras.
+
+Font 
+font-family = qual a fonte;
+font-size = tamanho da fonte;
+Font externa:
+google fonts.
+Podemos colocar como um import ou como link 
+font-style = formato da fonte.
+font-weight = grossura da font;
+
+Estilização de links
+sem teória mais prática.
+
+Propriedade display (Sem display flex terá uma aula especifica pra isso!!)
+ determina como um elemento será exibido.
+ um elemento html já vem com um valor padrão.
+
+ existe alguns tipos de display
+ Block
+     div , h1, p, form, header, footer, section;
+ inline
+    a,span,img;
+
+Max-width 
+ Para definir uma largura máxima para um elemento.
+
+Position
+ static
+ relative 
+ absolute = Qual vai ser a posição do elemento em relação ao ancestral.(Ou elemento ao qual ele está contido).
+ fixed = fixa em um local definido.
+ sticky = Ele gruda no local em que eu posicionar;
+
+ OverFlow
+ Determina o que vai acontecer com o conteúdo quando o elemento for menor que o conteúdo que está dentro dele.
+
+ Float faz com que o objeto flutue.
+
+ clear:both = limpar um ponto de flutuação.
+ 
+Opacidade
+Gerador de imagens aleatorias , lorem picsum.
+A opacidade trabalha com valores pecentuais ex : 0.1 = 10% , ou seja decimal que representa a porcentagem.
+todos os elementos da tag que você adicionou a transparência  ficam com transparência.
+
+Efeito Dropdown
+    Quando passar o mouse sobre um elemento abre mais opções (Subitens);
+
+Especificidade
+    Se você tiver duas ou mais regras de css e elas forem conflitantes qual que o navegador vai considerar?
+    Colocar estilo diretamente na tag tem prioridadce em relaçao a qualquer outro estilo passado de outra forma;
+    Se você tiver um seletor de classe > seletor simples
+    exemplo 1 h1 com classe red : se você criar um estilo no proprio html  chamando o h1 e fora da página em uma folha css adicionar a classe a classe tem precendência em relação ao  h1. 
+    id > class , mesma situação anterior.
+    class + tag < class ;
+    tag + class > class ;
+Regra important:
+  serve para a gente definir a Especificidade, ignorando o fluxo normal .
+  !important = definir a prioridade.
+   Não ficar usando important em tudo.
+
+Efeito Gradiente
+    O gradiente é o efeito degrader de cores, podemos criar vários degrades com vários formatos e direções, as cores que podem ser adicionadas ao degradê é "infinito"
+    O degradê Pode ser adicionado com graus, só com as cores, direção , porcentagem das cores e etc.
+linear-gradient ;
+radiau-gradient;
+
+Text shadow e box shadow
+    
+Media queries
+ Reponsividade;
+ 
+
+Display flex:
+Com o display flex simplifica a adaptação.

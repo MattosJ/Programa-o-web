@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.flex-pai{
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.flex-pai div{
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    flex-grow: 1;
+}

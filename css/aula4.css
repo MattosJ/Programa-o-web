@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid ;
+   
+}
+body{
+    background-color: black;
+}
+.center-vermelho{
+    text-align: center;
+    color: red;
+}
