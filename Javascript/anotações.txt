@@ -1,0 +1,187 @@
+Aula sobre tipos de saída:
+ selecionar um determinado elemento do html:
+  document.getElementById = pegar um elemento pelo id;
+  .innerHTML = inserir um conteúdo na tela;
+  document.write (outra maneira de inserir um dado ao seu html) tem a mesma função do innerHTML;
+  alert = colocar uma alerta na tela;
+  console.log() = apresentar algo no console do navegador;
+
+Declarações em JS:
+  eu posso declarar várias variáveis em uma linha separando elas por (;) ponto e virgula;
+  O Js não precisa de ponto e vírgula, mas, eu usarei por ser programador e usar várias linguagem;
+  o Js ignora espaços em brancos, mas, let pessoa = "James"; é melhor que let pessoa="James"; pelo quesito organização;
+  Posso quebrar as linhas livremente para não deixar uma linha com milhares de colunas;(com tanto que eu declare um ponto de termino da declaração);
+    Apesar de poder quebrar linhas, tentar evitar. 
+  Declarando uma função:
+    function nome (){
+
+    }
+      posteriomente iremos analizar melhor;
+  Essa aula foi mais téorica.
+Sintaxe:
+  5 + 5 o JS entende como soma númerica e imprime 10;
+  "5 + 5" ele etende com string e imprime 5 + 5;
+  "1" ele entende como string e imprime 1 , mas, não confunda , o 1 string é diferente do 1 number;
+  1 ele etende com number e imprime 1(lembrar do explicado anteriomente);
+  var , let , const
+  * = multiplicação;
+  / = divisão;
+  ** = potenciação;
+  = é um operador de atribuição;
+  Js é case sensitive:
+    PESSOA =! Pessoa;
+    Pessoa =! PEssoa;
+      qualquer caixa diferente vai dar como diferente;
+  var não pode ser escrito como Var;
+  Nenhum declaração pode ser escrita como maiuscula;
+  Colocar ifem em js não é permitido para separar ex (meu-nome) não pode escreva meuNome;
+    posso colocar no lugar do - um _; _ é permitido;
+Comentários:
+  // é o operador de comentário para comentário de uma linha;
+  /* */ comentário de multiplas linhas;
+
+var let const:
+  Podemos declarar uma váriavel da várias formas:
+    var a = 2;
+    var b = 3;
+    ou
+    var a , b ;
+    a = 2;
+    b = 3;
+  Sabendo que eu posso modificar a váriavel o tempo inteiro.
+    ex:
+      a = 2;
+      a = 5;
+        O valor de a à ser considerado será o 5.
+  No JS não podemos começar com número, não podemos ter espaços entre um nome e outro.
+    ex:
+      var 1nome;
+      var data nascimento;
+      var var ;
+      var let;
+      var const;
+      var while;
+        Não podemos usar palavra que são da linguagem.
+  Let não permite redeclaração de váriavel;
+    ex: 
+      let person = "João";
+      let person = "Pedro";
+        Esse trecho de código daria erro.
+  Se uma var for definida e for redefinida dentro de um bloco ela vai assumir o último valor recebido.
+    Porém no let não funciona dessa forma, já que o let não pode ser redefinido.
+  const
+    Quando você declara uma constante ela não poderar ser modificada;
+    Logo declara-se const apenas para valores a qual você sabe que não será mutável.
+
+Operadores 
+  Os Operadores podem ser separados em 6 categorias:
+    Operadores Aritiméticos ou matemáticos;
+    Operadores de atribuição;
+    Operadores de sequência;
+    Operadores de comparação;
+    operador condicional (ternário);
+    Operadores Lógicos;
+  
+    Operadores Matemáticos:
+    +, - , / , *, **,>,<,<=,>=,==;
+
+    incremento  in english increment
+    ++;
+    decremento in english decrement
+    --;
+
+    += substitui(replaces) o x = x + 1 for x += 1;
+    /= funciona da mesma forma. it works in the same way;
+    
+    Operadores logico:
+    && = e
+    || = ou
+    ! = negação
+Funções:
+    definição : é um bloco de código projetado para executar uma tarefa específica.
+    É como uma pequena "fábrica" onde você faz uma entrada e ele ta dá uma saída.
+    Pode ser encarado como "mini-programas" projetados para fazer uma tarefa que vai contribuir para todo código.
+    Uma função JavaScript é executada quando "algo" a invoca (chama-a).
+    quando você adiciona uma variavel a uma função a variavel se torna local ou seja só tem aquele valor naquele bloco da função
+Objetos:
+ definição: São basicamente variáveis com muitos valores dentro.
+ ex: const carro = {marca: "ford", modelo: "ka", ano: 2015}.
+ Os valores dentro de um objeto são chamados propriedades.
+ Objetos também podem ter métodos. Um método é uma função colocadas dentro de uma propriedade.
+Eventos:
+  definição: São ações disparadas pela interação dos usuários na página.
+  É o correto manejo desses eventos que tornam as páginas interativas e dinâmicas.
+  Existem muitos eventos. Veja os mais utilizados:
+    Lista de eventos:
+      onclick = Disparado quando recebe um click.
+      ondblclick = Disparado quando clique duplo.
+      onmousover = Disparado quando o mouse está sobre.
+      onmouseout = Disparado quando o mouse é movido para fora do elemento.
+      onmousemove = Disparado quando o mouse pe movido no elemento.
+      onmousedown = Disparado quando o clique do botão foi pressionado.
+      onmouseup = Disparado quando o clique do botão é liberado.
+      onfocus = Disparado quando o elemento recebe o foco. Válido para input,
+      onchange = Disparado quando existe uma mudança no  conteudo. "Ao mudar".
+      onblur = Disparado quando o elemento perde o foco.
+      onkeydown = Disparado quando uma tecla é pressionada.
+      onkeypress = Disparado quando uma tecla é pressionada e solta.
+      onkeyup = Disparado quando uma tecla é solta sobre um elemento.
+      onload = Disparado quando a página terminou de ser carregada. body;
+      onresize = Disparado quando há um redimencionamento da janela.
+Arrays:
+  Os arrays JavaScript são usados para armazenar vários valores em uma única variável. Diferente dos objetos, que funcionam com propriedades ou "nomes" que você dá para os itens dentro dele, os arrays não possuem propriedades. O item dentro dele é encontrado pela posição.
+  Imagine um array como uma lista de itens, com controle , por ordem de posição dentro dele.
+  .length para dizer o tamanho do array.
+  para pegar o ultimo valor do array é array[-1]
+  push adiciona um valor ao final da lista ou array[array.length] = valor;
+  array.isArray(nomedaVariavel) devolve se é array ou n.
+    Funções para prontas em JS para trabalhar com matrizes:
+      .join("") = troca o separador entre os nossos itens do array;
+      .pop() = remove o ultimo elemento do array;
+      .push("") = adicionar item ao fim da lista;
+      .shift() = Remove o primeiro item do array;
+      .unshift(") = Adicionar um item ao primeiro item do array;
+      .splice(x,y,"","",....) = Você pode adicionar e remover multiplos itens no array;
+      .concat(nome_variável) = concatena arrays , sempre tem que ser adicionado a uma nova váriavel;
+      .slice(x,y) =  fatia o array a partir de um determinado item até outro item determinado;
+      .sort() = ordena o array; em ordem alfabetica; sort(function(a,b){return a - b}) = este método para ordenar núneros;
+      .reverse() = ordena ao contrário;  em ordem alfabetica; sort(function(a,b){return b - a}) = este método para ordenar núneros
+      .filter() = filtra;
+if e else:
+
+
+
+switch :
+
+
+for:
+  laços oferecem um jeito fácil e rápido de executar uma ação repetidas vezes;
+
+
+
+SetTimeout e SetInterval:
+  Os eventos de tempo permitem a execução do código em intervalos de tempo especificados. Esses intervalos de tempo são chamados de eventos de cronometragem.
+  Os dois métodos-chave para usar com JavaScript são:
+    setTimeout(function,tempo em milisegundos)
+      Executa uma função, depois de esperar um número especificado de milisegundos.
+
+    setInterval(function,milisegundos)
+      É o mesmo que o SetTimeout(), mas repete a execução da função continuamente.
+
+Classes:
+  As classes são como "Fábricas" para criar objetos.
+  Pode se dizer que são funções especiais para criação de objetos.
+  Assim como uma fábrica da vida real precisa das máquinas para construir os objetos, as classes no JavaScript usam um método chamado constructor() para fabricar os objetos.
+
+  Para construir um objeto precisamos ter as classes primeiros(declaradas).
+
+Manipulações de Datas:
+  Para trabalhar com datas utilizamos o método Date()
+
+Json:
+  JavaScript Object Notation (notação de objeto JavaScript).
+  é basicamente uma forma de converter um objeto em texto e o contrário também, um texto em um objeto.
+  Ele é usado principalmente para transmitir dados entre sistemas de forma simples, já que o formato de texto é lido por praticamente toda linguagem de programação.
+  Para trabalhar com Json no JavaScript usamos dois métodos:
+    JSON.parse() -> converte texto no padrão JSON em objetos.
+    JSON.stringify() -> converte objetos em texto padrão JSON
